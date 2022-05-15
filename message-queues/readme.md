@@ -24,3 +24,13 @@ There are 2 variables to configure, which have already defaulted values:
 
 You can set those values at config.py. Keep in mind that already created queues cannot
 have their max length changed.
+
+# File Structure
+* history.log: logs all requests and server errors
+* postman_collection.json: you can import this with postman to test the api
+* readme.md: this file
+* \_\_init__.py: makes the project a python package
+* api.py: the main file where the api resides
+* backup: contains the function to backup the queues
+* config: contains 2 configuration options
+* requirements.txt: python packages to be installed
